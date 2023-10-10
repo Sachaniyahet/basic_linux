@@ -1,0 +1,1 @@
+hello this are some basic commands in linux!.
