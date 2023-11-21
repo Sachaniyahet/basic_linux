@@ -1,1 +1,2 @@
 hello this are some basic commands in linux!.
+1.cd 
