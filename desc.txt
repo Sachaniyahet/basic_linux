@@ -1,1 +1,2 @@
 this is some description of linux commands!.
+1.cd = cd means change directory,it's used to change directory in linux files.
