@@ -1,2 +1,3 @@
 hello this are some basic commands in linux!.
 1.cd
+2.ls
