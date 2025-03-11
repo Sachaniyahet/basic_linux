@@ -1,3 +1,181 @@
-hello this are some basic commands in linux!.
-1.cd
-2.ls
+Linux has a vast number of commands. Below is a categorized list of common Linux commands:
+
+### **1. File and Directory Management**
+- `ls` – List directory contents
+- `cd` – Change directory
+- `pwd` – Print working directory
+- `mkdir` – Create directories
+- `rmdir` – Remove empty directories
+- `rm` – Remove files or directories
+- `cp` – Copy files and directories
+- `mv` – Move or rename files
+- `find` – Search for files and directories
+- `locate` – Find files by name
+- `touch` – Create an empty file
+- `stat` – Display detailed file information
+- `tree` – Display directories in a tree-like format
+
+### **2. File Permissions & Ownership**
+- `chmod` – Change file permissions
+- `chown` – Change file ownership
+- `chgrp` – Change file group ownership
+- `umask` – Set default permissions
+
+### **3. File Viewing and Editing**
+- `cat` – View file contents
+- `tac` – View file contents in reverse
+- `less` – View files interactively
+- `more` – View files page by page
+- `head` – View the first lines of a file
+- `tail` – View the last lines of a file
+- `nano` – Text editor
+- `vim` – Advanced text editor
+- `sed` – Stream editor for modifying files
+- `awk` – Pattern scanning and processing
+
+### **4. Disk and Storage Management**
+- `df` – Show disk space usage
+- `du` – Show directory size
+- `mount` – Mount a filesystem
+- `umount` – Unmount a filesystem
+- `fsck` – Check and repair a filesystem
+- `mkfs` – Create a filesystem
+- `blkid` – Show block device attributes
+- `lsblk` – List block devices
+- `parted` – Manage partitions
+- `fdisk` – Manage disk partitions
+- `tune2fs` – Adjust tunable filesystem parameters
+
+### **5. User Management**
+- `whoami` – Show current user
+- `who` – Show logged-in users
+- `id` – Display user ID and group ID
+- `users` – Show logged-in users
+- `groups` – Show user groups
+- `useradd` – Create a new user
+- `usermod` – Modify user attributes
+- `passwd` – Change user password
+- `deluser` – Delete a user
+- `groupadd` – Create a new group
+- `groupdel` – Delete a group
+- `su` – Switch user
+- `sudo` – Execute commands as another user
+
+### **6. Process Management**
+- `ps` – Show process status
+- `top` – Show active processes
+- `htop` – Interactive process viewer
+- `kill` – Terminate a process
+- `killall` – Terminate processes by name
+- `pkill` – Kill process by name
+- `nice` – Start process with priority
+- `renice` – Change process priority
+- `jobs` – Show background jobs
+- `fg` – Bring background job to foreground
+- `bg` – Resume a job in the background
+- `nohup` – Run a command immune to hangups
+- `watch` – Run a command at intervals
+
+### **7. Networking**
+- `ping` – Test network connectivity
+- `traceroute` – Show packet route to a host
+- `netstat` – Show network statistics
+- `ss` – Show socket statistics
+- `ifconfig` – Show network interfaces (deprecated)
+- `ip` – Show/manipulate network interfaces
+- `hostname` – Display hostname
+- `nslookup` – Query DNS records
+- `dig` – Query DNS records
+- `wget` – Download files
+- `curl` – Transfer data from or to a server
+- `scp` – Secure copy files between hosts
+- `rsync` – Sync files and directories remotely
+- `ftp` – File transfer protocol client
+- `sftp` – Secure FTP client
+- `telnet` – Connect to a remote host
+- `ssh` – Secure shell remote login
+
+### **8. Package Management**
+#### **Debian-based (Ubuntu, Debian)**
+- `apt-get` – Install/update/remove packages
+- `apt` – Modern package management tool
+- `dpkg` – Manage Debian packages
+
+#### **RedHat-based (RHEL, CentOS, Fedora)**
+- `yum` – Package manager for older versions
+- `dnf` – Modern package manager
+- `rpm` – Manage RPM packages
+
+#### **Universal Package Managers**
+- `snap` – Install Snap packages
+- `flatpak` – Install Flatpak packages
+- `brew` – Linux package manager
+
+### **9. System Monitoring**
+- `uptime` – Show system uptime
+- `free` – Show memory usage
+- `vmstat` – Show performance statistics
+- `iostat` – Show CPU and disk statistics
+- `mpstat` – Show CPU usage
+- `iotop` – Show disk I/O usage
+- `sar` – Collect and display system usage
+- `dmesg` – Show kernel messages
+- `lsof` – List open files
+
+### **10. System Control**
+- `shutdown` – Shutdown the system
+- `reboot` – Restart the system
+- `halt` – Stop the system
+- `systemctl` – Control system services
+- `service` – Manage services
+- `init` – Change system runlevel
+- `runlevel` – Show current runlevel
+- `crontab` – Schedule periodic jobs
+- `at` – Schedule jobs at a specific time
+
+### **11. Compression and Archiving**
+- `tar` – Archive files
+- `zip` – Compress files into ZIP
+- `unzip` – Extract ZIP files
+- `gzip` – Compress files
+- `gunzip` – Decompress GZIP files
+- `bzip2` – Compress files using BZIP2
+- `bunzip2` – Decompress BZIP2 files
+- `xz` – Compress files using XZ
+- `unxz` – Decompress XZ files
+- `7z` – Work with 7z archives
+- `rar` – Work with RAR files
+- `ar` – Create and manipulate archives
+
+### **12. Logs and System Information**
+- `journalctl` – View system logs
+- `last` – Show last logins
+- `uptime` – Show system uptime
+- `who` – Show logged-in users
+- `uname` – Show system information
+- `hostnamectl` – View and set hostname
+- `lsb_release` – Show Linux distribution info
+
+### **13. Development and Scripting**
+- `gcc` – Compile C programs
+- `g++` – Compile C++ programs
+- `make` – Build projects
+- `cmake` – Build system generator
+- `python` – Run Python scripts
+- `perl` – Run Perl scripts
+- `bash` – Execute shell scripts
+- `sh` – Execute shell scripts
+- `env` – Show environment variables
+- `echo` – Print text to terminal
+- `read` – Read input from user
+
+### **14. Miscellaneous**
+- `date` – Show current date and time
+- `cal` – Display calendar
+- `bc` – Calculator
+- `alias` – Create command shortcuts
+- `unalias` – Remove command aliases
+- `time` – Measure execution time of a command
+- `yes` – Repeatedly print a string
+- `sleep` – Pause for a set time
+- `watch` – Execute a command periodically
