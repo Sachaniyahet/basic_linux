@@ -1,0 +1,80 @@
+### **Basic Understanding of Linux**  
+
+#### **What is Linux?**  
+Linux is an open-source, Unix-like operating system that powers a variety of devices, from personal computers to servers, embedded systems, and mobile devices (Android). It is known for its stability, security, and flexibility.
+
+---
+
+### **Key Features of Linux**  
+1. **Open-Source** – The source code is freely available for modification and distribution.  
+2. **Multi-User** – Multiple users can use the system simultaneously.  
+3. **Multi-Tasking** – It can run multiple processes at the same time.  
+4. **Security** – Built-in user permissions and security features.  
+5. **Portability** – Runs on various hardware architectures.  
+6. **Shell & Command-Line Interface (CLI)** – Provides powerful control over the system.  
+
+---
+
+### **Basic Components of Linux**  
+1. **Kernel** – The core of the OS that manages hardware and system processes.  
+2. **Shell** – The command-line interface (CLI) that interprets user commands.  
+3. **File System** – Organizes files in a hierarchical structure.  
+4. **Processes** – Programs running in the system.  
+5. **Users & Permissions** – Access control and security through user roles.  
+
+---
+
+### **File System Structure**  
+Linux uses a hierarchical file system with `/` (root directory) at the top:  
+- `/home` – User files  
+- `/etc` – Configuration files  
+- `/bin` – Essential system commands  
+- `/var` – Logs and temporary data  
+- `/usr` – Installed software  
+- `/dev` – Device files  
+- `/proc` – Process information  
+
+---
+
+### **Basic Linux Commands**  
+📂 **File & Directory Management**  
+- `ls` – List files  
+- `cd` – Change directory  
+- `pwd` – Show current path  
+- `mkdir` – Create a directory  
+- `rm` – Remove files or directories  
+
+🔑 **User & Permissions**  
+- `whoami` – Show current user  
+- `chmod` – Change file permissions  
+- `chown` – Change file ownership  
+
+⚙️ **Process Management**  
+- `ps` – View running processes  
+- `kill` – Terminate a process  
+- `top` – Monitor system resources  
+
+🌐 **Networking**  
+- `ping` – Check network connectivity  
+- `ifconfig/ip` – View network settings  
+- `wget/curl` – Download files  
+
+🛠 **System Management**  
+- `shutdown -h now` – Shutdown system  
+- `reboot` – Restart system  
+- `df -h` – Check disk space  
+
+---
+
+### **Package Management**  
+- **Debian-based (Ubuntu, Debian)** → `apt-get`, `dpkg`  
+- **RedHat-based (Fedora, CentOS)** → `yum`, `dnf`  
+- **Universal** → `snap`, `flatpak`  
+
+---
+
+### **Why Use Linux?**  
+✅ Free and Open-Source  
+✅ Highly Secure and Stable  
+✅ Efficient and Lightweight  
+✅ Customizable with Various Distributions  
