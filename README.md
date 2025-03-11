@@ -22,10 +22,6 @@ Navigate to the repository and explore the files:
 ```bash
 cd basic_linux
 ```
-Run scripts as needed:
-```bash
-bash script_name.sh
-```
 
 ## Contributing
 Contributions are welcome! If you’d like to contribute:
@@ -36,7 +32,7 @@ Contributions are welcome! If you’d like to contribute:
 5. Open a pull request
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU General Public License v3.0 License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 For questions or suggestions, feel free to open an issue or reach out via GitHub.
